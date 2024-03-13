@@ -10,7 +10,7 @@ public class NaturalNumber {
             System.out.println("Please Enter Positive number");
         } else {
             sumOfNaturalNumber=sumOfNumbers(positiveNumber); // call sumOfNumbers function
-            System.out.println("Numbers of digit in " + positiveNumber + " is: " + sumOfNaturalNumber);
+            System.out.println("sum of natural number is " + sumOfNaturalNumber);
         }
     }
     //count the digit
