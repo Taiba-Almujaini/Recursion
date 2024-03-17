@@ -6,6 +6,12 @@ public class BinarySearch {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size of array :");// ask user to enter array length
         Integer arrayLength = scanner.nextInt();
+
+        // Check if array length is valid
+        if (arrayLength <= 0) {
+            System.out.println("Invalid input. Array length must be greater than zero.");
+            return;
+        }
         Integer[] numberArray = new Integer[arrayLength];
         System.out.println("Enter the elements of array in ascending order:");
         for (int i = 0; i < arrayLength; i++) {
